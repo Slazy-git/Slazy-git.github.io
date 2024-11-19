@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://chevrollier.paysdelaloire.e-lyco.fr/wp-content/uploads/sites/14/2019/06/Fond-1.png");
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+header {
+  padding: 0;
+  width: 98%;
+  margin: 10px auto;
+}
+
+.header-bar {
+  background-color: hsla(286, 100%, 50%, 0.171);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.imageDeChevrollier {
+  margin-top: 0;
+}
+
+.imageDeChevrollier img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: hsla(286, 100%, 50%, 0.171);
+  padding: 10px 20px;
+  width: 98%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-et-texte {
+  display: flex;
+  align-items: center;
+}
+
+.logoChevrollier {
+  margin-right: 20px;
+}
+
+.logoChevrollier img {
+  height: 91.6px;
+  width: 279px;
+}
+
+#lien1 button {
+  background-color: rgba(186, 116, 192, 0.8);
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#lien1 button a {
+  color: white;
+  text-decoration: none;
+}
+
+#lien1 button:hover {
+  background-color: rgba(227, 209, 255, 0.74);
+}
+
+#lien1 {
+  margin-left: 20px;
+}
+
+.cadre {
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  height: 610px;
+  max-width: auto;
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.barre {
+  width: 2px;
+  height: 82px;
+  background-color: white;
+  margin: 0 20px;
+}
